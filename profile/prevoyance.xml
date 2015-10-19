@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_account_analytic_line_tree" model="ir.ui.view">
+            <field name="name">profile.prevoyance</field>
+            <field name="model">profile.prevoyance</field>
+            <field name="arch" type="xml">
+                <tree string="Data Entries">
+	                  <field name="prevoyance_id"/>
+                    <field name="codcePostal"/>
+                    <field name="email"/>
+                    <field name="fumeur"/>
+                    <field name="montant"/>
+                    <field name="qui"/>
+                    <field name="regime1"/>
+                    <field name="regime2"/>
+                    <field name="sexe"/>
+                    <field name="situation_maritale"/>
+                    <field name="tel"/>	
+                </tree>
+            </field>
+        </record>
+    </data>
+</openerp>
