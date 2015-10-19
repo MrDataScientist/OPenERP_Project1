@@ -6,7 +6,7 @@
             <field name="model">client.animal</field>
             <field name="arch" type="xml">
                 <tree string="Data Entries">
-				    <field name="client_id"/>
+	            <field name="animal_id"/>
                     <field name="chien"/>
                     <field name="chat"/>
                     <field name="typeChien"/>
@@ -23,8 +23,5 @@
                 </tree>
             </field>
         </record>
-		
-		
-	
     </data>
 </openerp>
