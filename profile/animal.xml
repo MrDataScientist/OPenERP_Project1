@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_account_analytic_line_tree" model="ir.ui.view">
+            <field name="name">client.animal</field>
+            <field name="model">client.animal</field>
+            <field name="arch" type="xml">
+                <tree string="Data Entries">
+				    <field name="client_id"/>
+                    <field name="chien"/>
+                    <field name="chat"/>
+                    <field name="typeChien"/>
+                    <field name="typeChat"/>
+                    <field name="combienChien"/>
+                    <field name="combienChat"/>
+                    <field name="connu"/>
+                    <field name="email"/>
+                    <field name="news"/>
+                    <field name="nom"/>
+                    <field name="prenom"/>
+                    <field name="sexe"/>
+                    <field name="tel"/>	
+                </tree>
+            </field>
+        </record>
+		
+		
+	
+    </data>
+</openerp>
