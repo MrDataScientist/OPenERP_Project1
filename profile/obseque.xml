@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_account_analytic_line_tree" model="ir.ui.view">
+            <field name="name">client.animal</field>
+            <field name="model">client.animal</field>
+            <field name="arch" type="xml">
+                <tree string="Data Entries">
+	                  <field name="obseque_id"/>
+                    <field name="bd"/>
+                    <field name="bd1"/>
+                    <field name="capital"/>
+                    <field name="civilite"/>
+                    <field name="code_postal"/>
+                    <field name="conjoint"/>
+                    <field name="email"/>
+                    <field name="regime1"/>
+                    <field name="regime2"/>
+                    <field name="sexe1"/>
+                    <field name="sexe2"/>
+                    <field name="tel"/>	
+                </tree>
+            </field>
+        </record>
+    </data>
+</openerp>
